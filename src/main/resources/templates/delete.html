@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<!-- <title>Hapus</title> -->
+	<title th:include="fragments/fragment :: headerFragment('Delete')"></title>
+	<object th:include="fragments/fragment :: css" th:remove="tag"></object>
+	<object th:include="fragments/fragment :: js" th:remove="tag"></object>
+</head>
+
+<body>
+	<h2>Data berhasil Dihapus</h2>
+	<nav th:replace="fragments/fragment :: navbar"></nav>
+</body>
+
+</html>

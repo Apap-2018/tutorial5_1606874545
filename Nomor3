@@ -1,0 +1,3 @@
+Jawaban Nomor 3:
+Pada th:include fragment akan ditempatkan didalam <div> 
+sedangkan th:replace, <div> akan digantikan dengan konten
